@@ -30,6 +30,7 @@ public class DataDeNascimento {
     }
 
     private static Usuario criarUsuario() {
+        System.out.println("Utilize a tecla espaço para separar datas e horarios ");
         System.out.print("Qual o seu nome? ");
         String nome = TECLADO.nextLine();
         
